@@ -14,8 +14,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.12349397590361445,
-      "y": 0.29831932773109243,
+      "x": 0.11947791164658633,
+      "y": 0.28781512605042014,
       "uniqueID": "id-4",
       "ioValues": [
         {
@@ -59,8 +59,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 44,
+          "currentEquation": "44"
         }
       ]
     },
@@ -134,7 +134,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "extrude-circle-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+            "geometry": "extrude-circle-22-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -295,6 +295,52 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.5773092369477911,
+      "y": 0.542016806722689,
+      "uniqueID": "id-66",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 180,
+          "currentEquation": "180"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.6375502008032129,
+      "y": 0.7163865546218486,
+      "uniqueID": "id-72",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4_dustRefirection"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4_dustRefirection"
     }
   ],
   "allConnectors": [
@@ -340,6 +386,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-36",
+      "ap2ID": "id-66"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-40",
       "ap2ID": "id-43"
     },
@@ -367,6 +418,16 @@
       "ap2Name": "geometry2",
       "ap1ID": "id-61",
       "ap2ID": "id-36"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-66",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-66",
+      "ap2ID": "id-72"
     }
   ],
   "unitsKey": "MM",
