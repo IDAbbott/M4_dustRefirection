@@ -7,8 +7,13 @@
   "ioValues": [
     {
       "name": "Depth",
-      "ioValue": 15,
-      "currentEquation": "15"
+      "ioValue": 10,
+      "currentEquation": "10"
+    },
+    {
+      "name": "CentreHole",
+      "ioValue": 22,
+      "currentEquation": "22"
     }
   ],
   "topLevel": true,
@@ -27,8 +32,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 43,
-          "currentEquation": "43"
+          "ioValue": 43
         }
       ]
     },
@@ -40,21 +44,19 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 15,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.11746987951807229,
-      "y": 0.726890756302521,
+      "x": 0.0927601809954751,
+      "y": 0.6666666666666666,
       "uniqueID": "id-11",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 42,
-          "currentEquation": "42"
+          "ioValue": 42
         }
       ]
     },
@@ -66,8 +68,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 45,
-          "currentEquation": "45"
+          "ioValue": 45
         }
       ]
     },
@@ -79,8 +80,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         }
       ]
     },
@@ -100,8 +100,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "2"
+          "ioValue": 0
         }
       ]
     },
@@ -114,7 +113,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-extrude-circle-21.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0-0-0",
+            "geometry": "move-extrude-circle-21.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -168,7 +167,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-extrude-circle-21.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-15",
+            "geometry": "move-extrude-circle-21.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-10",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -203,8 +202,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 15,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -222,8 +220,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 43,
-          "currentEquation": "43"
+          "ioValue": 43
         }
       ]
     },
@@ -235,8 +232,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         }
       ]
     },
@@ -252,13 +248,11 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
-          "ioValue": 15,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -270,7 +264,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 22
         }
       ]
     },
@@ -282,8 +276,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ]
     },
@@ -315,13 +308,11 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 180,
-          "currentEquation": "180"
+          "ioValue": 180
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -352,9 +343,17 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.22478991596638656,
+      "y": 0.15384615384615385,
       "uniqueID": "id-77",
       "name": "Depth",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.23076923076923078,
+      "uniqueID": "id-139",
+      "name": "CentreHole",
       "type": "number"
     }
   ],
@@ -458,6 +457,11 @@
       "ap2Name": "height",
       "ap1ID": "id-77",
       "ap2ID": "id-32"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-139",
+      "ap2ID": "id-54"
     }
   ],
   "unitsKey": "MM",
