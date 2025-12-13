@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "Depth",
-      "ioValue": 8
+      "ioValue": 1
     },
     {
       "name": "CentreHole",
@@ -72,8 +72,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6161879895561359,
-      "y": 0.5054945054945055,
+      "x": 0.6240208877284595,
+      "y": 0.4131868131868132,
       "uniqueID": "id-36"
     },
     {
@@ -116,7 +116,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 8
+          "ioValue": 1
         }
       ]
     },
@@ -161,10 +161,6 @@
         {
           "name": "y-axis degrees",
           "ioValue": 180
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
         }
       ]
     },
@@ -550,12 +546,6 @@
       "closedSelection": 0
     },
     {
-      "atomType": "Difference",
-      "x": 0.5491731940818103,
-      "y": 0.7714285714285715,
-      "uniqueID": "id-337"
-    },
-    {
       "atomType": "Move",
       "x": 0.38207136640557005,
       "y": 0.2065934065934066,
@@ -594,10 +584,6 @@
       "uniqueID": "id-353",
       "ioValues": [
         {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
           "name": "Shape 2",
           "ioValue": null
         },
@@ -606,6 +592,20 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Color",
+      "x": 0.5953002610966057,
+      "y": 0.22417582417582416,
+      "uniqueID": "id-359",
+      "selectedColor": "Default"
+    },
+    {
+      "atomType": "Color",
+      "x": 0.6453002610966058,
+      "y": 0.17417582417582417,
+      "uniqueID": "id-362",
+      "selectedColor": "Default"
     }
   ],
   "allConnectors": [
@@ -650,24 +650,9 @@
       "ap2ID": "id-47"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-47",
-      "ap2ID": "id-353"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-54",
       "ap2ID": "id-291"
-    },
-    {
-      "ap2Name": "geometry2",
-      "ap1ID": "id-61",
-      "ap2ID": "id-36"
-    },
-    {
-      "ap2Name": "geometry2",
-      "ap1ID": "id-61",
-      "ap2ID": "id-337"
     },
     {
       "ap2Name": "number or geometry",
@@ -735,9 +720,9 @@
       "ap2ID": "id-331"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "z-axis degrees",
       "ap1ID": "id-331",
-      "ap2ID": "id-337"
+      "ap2ID": "id-66"
     },
     {
       "ap2Name": "Shape 2",
@@ -748,11 +733,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-348",
       "ap2ID": "id-342"
-    },
-    {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-353",
-      "ap2ID": "id-36"
     }
   ],
   "unitsKey": "MM",
