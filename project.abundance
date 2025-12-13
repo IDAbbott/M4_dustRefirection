@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "Depth",
-      "ioValue": 10
+      "ioValue": 8
     },
     {
       "name": "CentreHole",
@@ -116,7 +116,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 10
+          "ioValue": 8
         }
       ]
     },
@@ -128,7 +128,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 22
+          "ioValue": 28
         }
       ]
     },
@@ -326,7 +326,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 28
+          "ioValue": 26
         }
       ]
     },
@@ -339,7 +339,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-circle-11-0-0-0",
+            "geometry": "move-circle-14-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -366,7 +366,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-circle-14-0-0-0",
+            "geometry": "move-circle-13-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -419,25 +419,25 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.17580504786771106,
-      "y": 0.4945054945054945,
+      "x": 0.17667536988685814,
+      "y": 0.49010989010989015,
       "uniqueID": "id-313",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 24
+          "ioValue": 30
         }
       ]
     },
     {
       "atomType": "Circle",
       "x": 0.18711923411662315,
-      "y": 0.5912087912087912,
+      "y": 0.6043956043956044,
       "uniqueID": "id-316",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 30
+          "ioValue": 24
         }
       ]
     },
@@ -484,14 +484,14 @@
     },
     {
       "atomType": "Loft",
-      "x": 0.3698868581375109,
-      "y": 0.5384615384615384,
+      "x": 0.37249782419495214,
+      "y": 0.5428571428571428,
       "uniqueID": "id-331",
       "ioValues": [
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-circle-12-0-0-0",
+            "geometry": "move-circle-15-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -518,7 +518,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-circle-15-0-0-0",
+            "geometry": "move-circle-12-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -683,11 +683,6 @@
       "ap2Name": "zDist",
       "ap1ID": "id-77",
       "ap2ID": "id-47"
-    },
-    {
-      "ap2Name": "diameter",
-      "ap1ID": "id-139",
-      "ap2ID": "id-54"
     },
     {
       "ap2Name": "Shape 1",
