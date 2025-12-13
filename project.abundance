@@ -185,14 +185,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_DustCap",
-          "currentEquation": "M4_dustRefirection"
+          "ioValue": "M4_DustCap2",
+          "currentEquation": "M4_DustCap2"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4_DustCap"
+      "partName": "M4_DustCap2"
     },
     {
       "atomType": "Input",
@@ -599,24 +599,26 @@
     },
     {
       "atomType": "Color",
-      "x": 0.5613577023498694,
-      "y": 0.832967032967033,
-      "uniqueID": "id-359",
-      "selectedColor": "Default"
-    },
-    {
-      "atomType": "Color",
-      "x": 0.70147954743255,
-      "y": 0.9648351648351648,
-      "uniqueID": "id-362",
-      "selectedColor": "Default"
-    },
-    {
-      "atomType": "Color",
       "x": 0.577893820713664,
       "y": 0.2043956043956044,
       "uniqueID": "id-365",
       "selectedColor": "Light Purple"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.6492602262837249,
+      "y": 0.10109890109890109,
+      "uniqueID": "id-368",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -659,6 +661,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-43",
       "ap2ID": "id-47"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-47",
+      "ap2ID": "id-368"
     },
     {
       "ap2Name": "geometry",
@@ -751,8 +758,13 @@
       "ap2ID": "id-365"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "Shape 2",
       "ap1ID": "id-365",
+      "ap2ID": "id-368"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-368",
       "ap2ID": "id-36"
     }
   ],
