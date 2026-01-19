@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "Depth",
-      "ioValue": 1
+      "ioValue": 0
     },
     {
       "name": "CentreHole",
@@ -53,18 +53,6 @@
       ]
     },
     {
-      "atomType": "Circle",
-      "x": 0.12126696832579184,
-      "y": 0.36,
-      "uniqueID": "id-14",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 50
-        }
-      ]
-    },
-    {
       "atomType": "Extrude",
       "x": 0.21409921671018275,
       "y": 0.6747252747252748,
@@ -82,8 +70,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6579634464751959,
-      "y": 0.31648351648351647,
+      "x": 0.6927601809954751,
+      "y": 0.4126315789473684,
       "uniqueID": "id-36",
       "ioValues": [
         {
@@ -144,7 +132,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 1
+          "ioValue": 0
         }
       ]
     },
@@ -173,30 +161,6 @@
         {
           "name": "Shape 3",
           "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.7384615384615384,
-      "y": 0.5326315789473685,
-      "uniqueID": "id-66",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 180
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
         }
       ]
     },
@@ -411,21 +375,9 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.17667536988685814,
-      "y": 0.49010989010989015,
+      "x": 0.11266968325791855,
+      "y": 0.3642105263157895,
       "uniqueID": "id-313",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 30
-        }
-      ]
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.18711923411662315,
-      "y": 0.6043956043956044,
-      "uniqueID": "id-316",
       "ioValues": [
         {
           "name": "diameter",
@@ -434,9 +386,21 @@
       ]
     },
     {
+      "atomType": "Circle",
+      "x": 0.11900452488687782,
+      "y": 0.5326315789473685,
+      "uniqueID": "id-316",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 38
+        }
+      ]
+    },
+    {
       "atomType": "Move",
-      "x": 0.27319408181026983,
-      "y": 0.49230769230769234,
+      "x": 0.24027149321266966,
+      "y": 0.4147368421052632,
       "uniqueID": "id-319",
       "ioValues": [
         {
@@ -459,8 +423,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2818973020017407,
-      "y": 0.5956043956043956,
+      "x": 0.2809954751131222,
+      "y": 0.5621052631578948,
       "uniqueID": "id-325",
       "ioValues": [
         {
@@ -483,8 +447,8 @@
     },
     {
       "atomType": "Loft",
-      "x": 0.37249782419495214,
-      "y": 0.5428571428571428,
+      "x": 0.3746606334841629,
+      "y": 0.5094736842105263,
       "uniqueID": "id-331",
       "ioValues": [
         {
@@ -502,7 +466,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-circle-15-0-0-0",
+            "geometry": "move-circle-12-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -529,7 +493,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-circle-12-0-0-0",
+            "geometry": "move-circle-19-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -627,8 +591,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6492602262837249,
-      "y": 0.10109890109890109,
+      "x": 0.6484162895927602,
+      "y": 0.10105263157894737,
       "uniqueID": "id-368",
       "ioValues": [
         {
@@ -664,9 +628,14 @@
       "ap2ID": "id-61"
     },
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-36",
+      "ap2ID": "id-2"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-36",
-      "ap2ID": "id-66"
+      "ap2ID": "id-72"
     },
     {
       "ap2Name": "geometry",
@@ -687,16 +656,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-54",
       "ap2ID": "id-291"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-66",
-      "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-66",
-      "ap2ID": "id-72"
     },
     {
       "ap2Name": "zDist",
