@@ -185,14 +185,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_DustCap2",
-          "currentEquation": "M4_DustCap2"
+          "ioValue": "M4_DustCap3",
+          "currentEquation": "M4_DustCap3"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4_DustCap2"
+      "partName": "M4_DustCap3"
     },
     {
       "atomType": "Input",
