@@ -11,8 +11,7 @@
     },
     {
       "name": "CentreHole",
-      "ioValue": 22,
-      "currentEquation": "22"
+      "ioValue": 22
     }
   ],
   "topLevel": true,
@@ -31,8 +30,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6565610859728507,
-      "y": 0.4147368421052632,
+      "x": 0.6565217391304348,
+      "y": 0.4194373401534527,
       "uniqueID": "id-36",
       "ioValues": [
         {
@@ -187,7 +186,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 43
+          "ioValue": 44
         }
       ]
     },
@@ -212,7 +211,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-circle-20-0-0-0",
+            "geometry": "move-circle-22-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -239,7 +238,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-circle-21.5-0-0-0",
+            "geometry": "move-circle-22-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -302,19 +301,19 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 38
+          "ioValue": 42
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.1,
-      "y": 0.7221052631578947,
+      "x": 0.10797101449275363,
+      "y": 0.7289002557544757,
       "uniqueID": "id-316",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 40
+          "ioValue": 42
         }
       ]
     },
@@ -387,7 +386,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-circle-19-0-0-0",
+            "geometry": "move-circle-21-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -414,7 +413,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-circle-20-0-0-0",
+            "geometry": "move-circle-21-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -602,8 +601,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
@@ -636,11 +634,6 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-54",
-      "ap2ID": "id-291"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-54",
       "ap2ID": "id-453"
     },
     {
@@ -667,6 +660,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-297",
       "ap2ID": "id-306"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-297",
+      "ap2ID": "id-291"
     },
     {
       "ap2Name": "geometry",
