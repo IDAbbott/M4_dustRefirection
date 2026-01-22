@@ -98,8 +98,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.918840579710145,
-      "y": 0.8056265984654731,
+      "x": 0.9181159420289856,
+      "y": 0.7928388746803069,
       "uniqueID": "id-72",
       "ioValues": [
         {
@@ -226,30 +226,6 @@
         }
       ],
       "selectedColor": "Light Purple"
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6340579710144928,
-      "y": 0.6214833759590793,
-      "uniqueID": "id-368",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 5",
-          "ioValue": null
-        }
-      ]
     },
     {
       "atomType": "Circle",
@@ -438,7 +414,7 @@
         {
           "atomType": "Circle",
           "x": 0.20579710144927535,
-          "y": 0.309462915601023,
+          "y": 0.20460358056265984,
           "uniqueID": "id-627",
           "ioValues": [
             {
@@ -455,14 +431,14 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 52
+              "ioValue": null
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.3391304347826087,
-          "y": 0.46291560102301793,
+          "x": 0.363768115942029,
+          "y": 0.8081841432225064,
           "uniqueID": "id-633",
           "ioValues": [
             {
@@ -485,8 +461,8 @@
         },
         {
           "atomType": "Loft",
-          "x": 0.4753623188405797,
-          "y": 0.5089514066496164,
+          "x": 0.47898550724637684,
+          "y": 0.5140664961636829,
           "uniqueID": "id-639",
           "ioValues": [
             {
@@ -507,7 +483,30 @@
             },
             {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "circle-27.5",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
             },
             {
               "name": "Shape 3",
@@ -553,17 +552,17 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-627",
-          "ap2ID": "id-633"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-627",
           "ap2ID": "id-644"
         },
         {
           "ap2Name": "Shape 2",
-          "ap1ID": "id-630",
+          "ap1ID": "id-627",
           "ap2ID": "id-639"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-630",
+          "ap2ID": "id-633"
         },
         {
           "ap2Name": "Shape 1",
@@ -587,6 +586,43 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Color",
+      "x": 0.6260869565217391,
+      "y": 0.2506393861892583,
+      "uniqueID": "id-751",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Green"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.6144927536231884,
+      "y": 0.4424552429667519,
+      "uniqueID": "id-754",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -608,7 +644,7 @@
     {
       "ap2Name": "Shape 1",
       "ap1ID": "id-47",
-      "ap2ID": "id-368"
+      "ap2ID": "id-754"
     },
     {
       "ap2Name": "height",
@@ -646,14 +682,9 @@
       "ap2ID": "id-563"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "Shape 4",
       "ap1ID": "id-365",
-      "ap2ID": "id-368"
-    },
-    {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-368",
-      "ap2ID": "id-36"
+      "ap2ID": "id-754"
     },
     {
       "ap2Name": "geometry",
@@ -683,7 +714,7 @@
     {
       "ap2Name": "Shape 3",
       "ap1ID": "id-457",
-      "ap2ID": "id-368"
+      "ap2ID": "id-754"
     },
     {
       "ap2Name": "number or geometry",
@@ -706,9 +737,19 @@
       "ap2ID": "id-448"
     },
     {
-      "ap2Name": "Shape 5",
+      "ap2Name": "geometry",
       "ap1ID": "id-623",
-      "ap2ID": "id-368"
+      "ap2ID": "id-751"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-751",
+      "ap2ID": "id-754"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-754",
+      "ap2ID": "id-36"
     }
   ],
   "unitsKey": "MM",
