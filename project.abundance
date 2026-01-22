@@ -246,6 +246,10 @@
         {
           "name": "Shape 3",
           "ioValue": null
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": null
         }
       ]
     },
@@ -416,8 +420,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.6528985507246378,
-      "y": 0.2762148337595908,
+      "x": 0.5565217391304348,
+      "y": 0.10485933503836317,
       "uniqueID": "id-623",
       "name": "OuterSupport",
       "topLevel": false,
@@ -436,8 +440,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.2181159420289855,
-          "y": 0.34271099744245526,
+          "x": 0.22826086956521738,
+          "y": 0.2531969309462916,
           "uniqueID": "id-627",
           "ioValues": [
             {
@@ -454,15 +458,14 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 54,
-              "currentEquation": "54"
+              "ioValue": 52
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.34420289855072467,
-          "y": 0.3375959079283888,
+          "x": 0.3282608695652174,
+          "y": 0.4194373401534527,
           "uniqueID": "id-633",
           "ioValues": [
             {
@@ -479,7 +482,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 8
+              "ioValue": 10
             }
           ]
         },
@@ -498,9 +501,40 @@
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
+              "name": "Shape 3",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "circle-27",
+                "geometry": "move-circle-27.5-0-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    10
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "circle-26",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -525,11 +559,67 @@
               }
             },
             {
-              "name": "Shape 2",
+              "name": "Shape 3",
               "ioValue": null
             }
           ],
           "closedSelection": 0
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3282608695652174,
+          "y": 0.2531969309462916,
+          "uniqueID": "id-644",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.5782608695652174,
+          "y": 0.3452685421994885,
+          "uniqueID": "id-648",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.7115942028985507,
+          "y": 0.37340153452685426,
+          "uniqueID": "id-657",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 180
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -539,9 +629,39 @@
           "ap2ID": "id-633"
         },
         {
-          "ap2Name": "Shape 1",
+          "ap2Name": "geometry",
+          "ap1ID": "id-627",
+          "ap2ID": "id-644"
+        },
+        {
+          "ap2Name": "Shape 2",
           "ap1ID": "id-630",
           "ap2ID": "id-639"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-633",
+          "ap2ID": "id-639"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-639",
+          "ap2ID": "id-648"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-644",
+          "ap2ID": "id-648"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-648",
+          "ap2ID": "id-657"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-657",
+          "ap2ID": "id-625"
         }
       ],
       "fileTypeVersion": 1
@@ -662,6 +782,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-563",
       "ap2ID": "id-448"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-623",
+      "ap2ID": "id-368"
     }
   ],
   "unitsKey": "MM",
