@@ -31,8 +31,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.7130434782608696,
-      "y": 0.670076726342711,
+      "x": 0.7166666666666667,
+      "y": 0.6675191815856778,
       "uniqueID": "id-36",
       "ioValues": [
         {
@@ -99,8 +99,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8230769230769232,
-      "y": 0.7705263157894737,
+      "x": 0.918840579710145,
+      "y": 0.8056265984654731,
       "uniqueID": "id-72",
       "ioValues": [
         {
@@ -212,8 +212,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 0
         }
       ]
     },
@@ -361,8 +360,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.7402714932126697,
-      "y": 0.44421052631578944,
+      "x": 0.8173913043478261,
+      "y": 0.43989769820971864,
       "uniqueID": "id-464",
       "ioValues": [
         {
@@ -414,6 +413,138 @@
           "ioValue": 8
         }
       ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.6528985507246378,
+      "y": 0.2762148337595908,
+      "uniqueID": "id-623",
+      "name": "OuterSupport",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-625",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.2181159420289855,
+          "y": 0.34271099744245526,
+          "uniqueID": "id-627",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 55
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.22753623188405794,
+          "y": 0.5549872122762148,
+          "uniqueID": "id-630",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 54,
+              "currentEquation": "54"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.34420289855072467,
+          "y": 0.3375959079283888,
+          "uniqueID": "id-633",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Loft",
+          "x": 0.42101449275362324,
+          "y": 0.5498721227621484,
+          "uniqueID": "id-639",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "circle-27",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ],
+          "closedSelection": 0
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-627",
+          "ap2ID": "id-633"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-630",
+          "ap2ID": "id-639"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
